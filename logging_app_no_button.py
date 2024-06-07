@@ -4,7 +4,7 @@ import logging
 from datetime import datetime
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format='- %(message)s')
 
 st.title("Streamlit Logging App")
 
