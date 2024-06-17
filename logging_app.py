@@ -35,6 +35,6 @@ if st.button('Start Logging'):
         if logging_interval <= 0:
             st.error("Logging interval must be a positive integer.")
         else:
-            log_message(logging_interval)
+            log_messages(logging_interval)
     except ValueError:
         st.error("Please enter a valid integer for the logging interval.")
