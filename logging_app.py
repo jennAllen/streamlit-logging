@@ -10,6 +10,9 @@ st.title("Streamlit Logging App")
 
 placeholder = st.empty()
 
+#Log to Streamlit - should raise error
+placeholder.text(message)
+
 # Input box for logging interval with error
 interval = st.text_input("Enter logging interval (seconds):", "5")
 
