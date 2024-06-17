@@ -15,7 +15,7 @@ interval = st.text_input("Enter logging interval (seconds):", "5")
 
 def log_message(logging_interval):
     while True:
-        current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        current_times = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         message = f"Log message at {current_time}"
         
         # Log to Streamlit
