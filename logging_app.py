@@ -10,8 +10,8 @@ st.title("Streamlit Logging App")
 
 placeholder = st.empty()
 
-# Input box for logging interval
-interval = st.text_input("Enter logging interval (seconds):", "5")
+# Input box for logging interval with error
+interval = text_input("Enter logging interval (seconds):", "5")
 
 def log_message(logging_interval):
     while True:
