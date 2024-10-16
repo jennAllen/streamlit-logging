@@ -7,7 +7,7 @@ from datetime import datetime
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
 st.title("Streamlit Logging App")
-st.paragraph("Test update in Github")
+st.text("Test update in Github - correct text")
 placeholder = st.empty()
 
 # Input box for logging interval
